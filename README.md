@@ -1,4 +1,4 @@
-# mdb-final 
+# Angular Routing 
 
 This project is a skeleton application to learn the basics of angular routing
 
