@@ -7,17 +7,17 @@ angular.module('routingApp').config(function($routeProvider) {
 		// route for the home page
 		.when('/', {
 			templateUrl : 'templates/home.html',
-			controller  : 'homeController'
+			controller  : 'HomeController'
 		})
 		// route for the about page
 		.when('/about', {
 			templateUrl : 'templates/about.html',
-			controller  : 'aboutController'
+			controller  : 'AboutController'
 		})
 		// route for the contact page
 		.when('/contact', {
 			templateUrl : 'templates/contact.html',
-			controller  : 'contactController'
+			controller  : 'ContactController'
 		})
 		.otherwise({redirectTo: '/'}); ;
 });

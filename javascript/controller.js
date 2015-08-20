@@ -1,10 +1,10 @@
 angular.module('routingControllers',[])
-.controller('homeController',function($scope) {
+.controller('HomeController',function($scope) {
  //put your code here
  })
- .controller('aboutController',function($scope) {
+ .controller('AboutController',function($scope) {
  //put your code here
  })
- .controller('contactController',function($scope) {
+ .controller('ContactController',function($scope) {
  //put your code here
  });
