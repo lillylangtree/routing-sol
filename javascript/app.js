@@ -14,6 +14,11 @@ angular.module('routingApp').config(function($routeProvider) {
 			templateUrl : 'templates/about.html',
 			controller  : 'AboutController'
 		})
+				// route for the details page
+		.when('/details/:pageFrom', {
+			templateUrl : 'templates/details.html',
+			controller  : 'DetailsController'
+		})
 		// route for the contact page
 		.when('/contact', {
 			templateUrl : 'templates/contact.html',
